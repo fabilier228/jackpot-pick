@@ -1,0 +1,49 @@
+/* Styl ogólny dla kontenera listy prezentów */
+.gift-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; /* Odstęp między kartami prezentów */
+    padding: 20px;
+    justify-items: center; /* Wyśrodkowanie kart w kontenerze */
+  }
+  
+  /* Styl dla każdego prezentu */
+  .gift-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 100%; /* Dostosowanie szerokości */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Efekt hover dla karty prezentu */
+  .gift-card:hover {
+    transform: translateY(-5px); /* Lekko podnosi kartę */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Zwiększa cień przy najechaniu */
+  }
+  
+  /* Styl tytułu prezentu */
+  .gift-card h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Styl opisu prezentu */
+  .gift-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* Styl dla obrazka, jeśli jest */
+  .gift-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  

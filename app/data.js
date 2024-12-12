@@ -1,0 +1,22 @@
+export const gifts = [
+    { id: 0, title: "LOL Skin", body: "$20 League of Legends skin", url: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgamerant.com%2Fleague-of-legends-how-get-more-free-skins%2F&psig=AOvVaw0e3JTBFA0YmcxA-Z1x4hu9&ust=1734090379536000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJirj5uUoooDFQAAAAAdAAAAABAE" },
+    { id: 1, title: "Whiskey Bottle", body: "Premium 750ml bottle of whiskey", url: "https://example.com/whiskey" },
+    { id: 2, title: "Steam Gift Card", body: "$50 Steam gift card for PC games", url: "https://example.com/steam-gift-card" },
+    { id: 3, title: "Netflix Subscription", body: "3-month Netflix subscription gift card", url: "https://example.com/netflix-gift-card" },
+    { id: 4, title: "Casino Voucher", body: "$100 casino gaming voucher", url: "https://example.com/casino-voucher" },
+    { id: 5, title: "Board Game", body: "Classic Monopoly board game", url: "https://example.com/monopoly" },
+    { id: 6, title: "Premium Coffee Beans", body: "1kg bag of specialty roasted coffee beans", url: "https://example.com/coffee-beans" },
+    { id: 7, title: "Wine Gift Set", body: "Two-bottle premium wine gift set", url: "https://example.com/wine-gift-set" },
+    { id: 8, title: "Spotify Subscription", body: "6-month Spotify Premium subscription", url: "https://example.com/spotify-subscription" },
+    { id: 9, title: "Gourmet Chocolate Box", body: "Assorted gourmet chocolate gift box", url: "https://example.com/chocolate-box" },
+    { id: 10, title: "Xbox Game Pass", body: "3-month Xbox Game Pass Ultimate", url: "https://example.com/xbox-game-pass" },
+    { id: 11, title: "Cocktail Shaker Set", body: "Complete cocktail making set with recipes", url: "https://example.com/cocktail-shaker-set" },
+    { id: 12, title: "Gift Card for Lottery Tickets", body: "$25 lottery ticket gift card", url: "https://example.com/lottery-gift-card" },
+    { id: 13, title: "Digital Art Print", body: "Customizable digital art print for home decor", url: "https://example.com/digital-art-print" },
+    { id: 14, title: "Gin Tasting Kit", body: "Selection of mini gin bottles for tasting", url: "https://example.com/gin-tasting-kit" },
+    { id: 15, title: "Paid Mobile Game Credit", body: "$30 credit for mobile games on iOS or Android", url: "https://example.com/mobile-game-credit" },
+    { id: 16, title: "Bookstore Gift Card", body: "$40 gift card for local or online bookstores", url: "https://example.com/bookstore-gift-card" },
+    { id: 17, title: "Virtual Reality Game", body: "Download code for popular VR game", url: "https://example.com/vr-game" },
+    { id: 18, title: "Monthly Mystery Box Subscription", body: "3-month subscription to a mystery gift box service", url: "https://example.com/mystery-box" },
+    { id: 19, title: "Gourmet Snack Basket", body: "Gift basket with assorted gourmet snacks", url: "https://example.com/snack-basket" }
+];
