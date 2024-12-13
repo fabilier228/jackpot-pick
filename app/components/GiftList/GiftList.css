@@ -1,49 +1,48 @@
-/* Styl ogólny dla kontenera listy prezentów */
+/* Gift list styles */
 .gift-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px; /* Odstęp między kartami prezentów */
-    padding: 20px;
-    justify-items: center; /* Wyśrodkowanie kart w kontenerze */
-  }
-  
-  /* Styl dla każdego prezentu */
-  .gift-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    width: 100%; /* Dostosowanie szerokości */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  /* Efekt hover dla karty prezentu */
-  .gift-card:hover {
-    transform: translateY(-5px); /* Lekko podnosi kartę */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Zwiększa cień przy najechaniu */
-  }
-  
-  /* Styl tytułu prezentu */
-  .gift-card h3 {
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 10px;
-  }
-  
-  /* Styl opisu prezentu */
-  .gift-card p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.5;
-  }
-  
-  /* Styl dla obrazka, jeśli jest */
-  .gift-card img {
-    max-width: 100%;
-    border-radius: 8px;
-    object-fit: cover;
-    margin-bottom: 15px;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  justify-items: center;
+  background-color: #0b0c10;
+}
+
+.gift-card {
+  background: radial-gradient(circle, #ff6347, #e63946);
+  border: 3px solid #66fcf1;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gift-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+}
+
+.gift-card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.gift-card p {
+  font-size: 1rem;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+.gift-card img {
+  max-width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.gift-card:hover {
+  background: radial-gradient(circle, #e63946, #ff6347);
+}

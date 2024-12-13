@@ -6,12 +6,12 @@ import './GiftList.css'
 export default function GiftList({ giftList }) {
   useEffect(() => {
     console.log(giftList);
-  }, [giftList]); // You should pass giftList as a dependency to avoid unnecessary re-renders
+  }, [giftList]);
 
   return (
     <div className="gift-list">
-      {giftList.map((gift) => {
-        return <GiftCard key={gift.id} gift={gift} />;
+      {giftList.map((gift, index) => {
+        return <GiftCard key={index} gift={gift} id={index} />;
       })}
     </div>
   );
