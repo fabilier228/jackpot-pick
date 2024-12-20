@@ -6,14 +6,14 @@ import React, { useState, useEffect } from "react";
 export default function Home() {
   const [currentGifts, setCurrentGifts] = useState(gifts);
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const savedGifts = localStorage.getItem("shuffledGifts");
-      if (savedGifts) {
-        setCurrentGifts(JSON.parse(savedGifts));
-      }
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (typeof window !== "undefined") {
+  //     const savedGifts = localStorage.getItem("shuffledGifts");
+  //     if (savedGifts) {
+  //       setCurrentGifts(JSON.parse(savedGifts));
+  //     }
+  //   }
+  // }, []);
 
   const randomSortGifts = () => {
     const shuffledGifts = [...currentGifts];

@@ -5,7 +5,7 @@ const nextConfig = {
         {
           protocol: 'https',
           hostname: 'shop.riotgames.com',
-          pathname: '/**', // Allow all image paths from Google
+          pathname: '/**',
         },
       ],
     },

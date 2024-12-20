@@ -11,12 +11,6 @@
       "static/chunks/main-app.js",
       "static/css/app/page.css",
       "static/chunks/app/page.js"
-    ],
-    "/dyrupage/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/dyrupage/page.css",
-      "static/chunks/app/dyrupage/page.js"
     ]
   }
 }
