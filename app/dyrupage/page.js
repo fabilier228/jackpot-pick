@@ -6,7 +6,7 @@ import { gifts } from "../data/data";
 const betterGifts = gifts.map(gift => {
     return { 
         id: 2, 
-        title: "1000€ Vavada", 
+        title: "100€ Vavada", 
         body: "Wygraj 1000€ w kasynie Vavada", 
         url: "https://example.com/vavada-20", 
         value: "mega win" 
