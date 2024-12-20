@@ -8,7 +8,7 @@ const betterGifts = gifts.map(gift => {
         id: 2, 
         title: "100€ Vavada", 
         body: "Wygraj 1000€ w kasynie Vavada", 
-        url: "https://example.com/vavada-20", 
+        url: "https://www.worldcasinodirectory.com/images/content/vavada-casino_1682415912232.jpg", 
         value: "mega win" 
       }
 })
